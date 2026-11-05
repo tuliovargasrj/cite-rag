@@ -1,0 +1,3 @@
+# Corpus hashes are computed over exact bytes, so line endings must never be converted.
+data/corpus/*.rst -text
+evals/*.jsonl -text
