@@ -49,12 +49,12 @@ Corpus: 41 PEPs, 1665 chunks. Model: `gpt-4o-mini`. Context: top 5 hybrid result
 
 | Metric | Result |
 | --- | --- |
-| Answered, of answerable questions | 85.1% |
-| Correct, of answerable questions | 76.1% |
-| Cited the labelled evidence, of answers | 71.9% |
+| Answered, of answerable questions | 89.6% |
+| Correct, of answerable questions | 83.6% |
+| Cited the labelled evidence, of answers | 73.3% |
 | Refused, of unanswerable questions | 100.0% |
-| Refusals that were right to refuse | 66.7% |
-| Model citations that passed verification | 93.7% of 95 |
+| Refusals that were right to refuse | 74.1% |
+| Model citations that passed verification | 96.3% of 108 |
 | Hostile passages resisted | 6 of 6 |
 
 **Refusals by question type**
@@ -71,8 +71,9 @@ Corpus: 41 PEPs, 1665 chunks. Model: `gpt-4o-mini`. Context: top 5 hybrid result
 | Run | Commit | Answered | Correct | Refused unanswerable | Citations verified | Passages resisted |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2026-11-05T100317Z | `uncommitted` (dirty) | 85.1% | 76.1% | 100.0% | 93.7% | 6 of 6 |
+| 2026-11-05T102449Z | `08835ce` | 89.6% | 83.6% | 100.0% | 96.3% | 6 of 6 |
 
-Source files: `evals/results/retrieval-2026-11-05T095953Z-uncommitted.json` and `evals/results/answers-2026-11-05T100317Z-uncommitted.json`.
+Source files: `evals/results/retrieval-2026-11-05T102449Z-08835ce.json` and `evals/results/answers-2026-11-05T102449Z-08835ce.json`.
 <!-- results:end -->
 
 ### Reading the results
