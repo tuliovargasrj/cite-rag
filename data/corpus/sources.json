@@ -1,0 +1,371 @@
+[
+  {
+    "file": "pep-0008.rst",
+    "pep": 8,
+    "title": "Style Guide for Python Code",
+    "status": "Active",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0008.rst",
+    "sha256": "6028935c6cb2c674d5f4d512c7ba6ce2923713b1c47ce1a78adc690db817fc5d"
+  },
+  {
+    "file": "pep-0020.rst",
+    "pep": 20,
+    "title": "The Zen of Python",
+    "status": "Active",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0020.rst",
+    "sha256": "742999637cc96eef52e8148fdf65a6065a0953daee92bb48b8c739efcf6def07"
+  },
+  {
+    "file": "pep-0257.rst",
+    "pep": 257,
+    "title": "Docstring Conventions",
+    "status": "Active",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0257.rst",
+    "sha256": "7db41c5aaea3bfde0463307c72b38d735dc604491cadd059d7f9fe94b8142c0e"
+  },
+  {
+    "file": "pep-0318.rst",
+    "pep": 318,
+    "title": "Decorators for Functions and Methods",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0318.rst",
+    "sha256": "54fc00fe487090714d7bb9f8103fa84889503585457be400183bbb9d25072433"
+  },
+  {
+    "file": "pep-0343.rst",
+    "pep": 343,
+    "title": "The \"with\" Statement",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0343.rst",
+    "sha256": "69ea4cd6143ae721342c1ef404f6a080f0b8e9c66dc8a502e4d5daea50a3c3f4"
+  },
+  {
+    "file": "pep-0380.rst",
+    "pep": 380,
+    "title": "Syntax for Delegating to a Subgenerator",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0380.rst",
+    "sha256": "81b361bb5e41c3cadc0156a9272e15d6bbeaf2636db22e51049efc72754a2d47"
+  },
+  {
+    "file": "pep-0420.rst",
+    "pep": 420,
+    "title": "Implicit Namespace Packages",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0420.rst",
+    "sha256": "204c149993e26ec6e44e1146c507de0b2770bb18fa652c0ef37ba358f7da87bb"
+  },
+  {
+    "file": "pep-0440.rst",
+    "pep": 440,
+    "title": "Version Identification and Dependency Specification",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0440.rst",
+    "sha256": "73e66234348131cc6b51dd432e3e05cfd087d2f253f96e72dd43f1b4a13e29a8"
+  },
+  {
+    "file": "pep-0484.rst",
+    "pep": 484,
+    "title": "Type Hints",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0484.rst",
+    "sha256": "ddfe61c36a61b3ba926aaf23f4934ab17493a1cb7ea5d45497235b552c4a9f7c"
+  },
+  {
+    "file": "pep-0492.rst",
+    "pep": 492,
+    "title": "Coroutines with async and await syntax",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0492.rst",
+    "sha256": "8e60fb391f3584cb05e6fffed11e48f5233feae008540f8ca85e0800e3d5d1a6"
+  },
+  {
+    "file": "pep-0498.rst",
+    "pep": 498,
+    "title": "Literal String Interpolation",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0498.rst",
+    "sha256": "a3eb06e347f3bb39eeb7658b9339241d9cdd825b7c59876f372fea84376dc4a6"
+  },
+  {
+    "file": "pep-0517.rst",
+    "pep": 517,
+    "title": "A build-system independent format for source trees",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0517.rst",
+    "sha256": "fcc588817c7d8223a86cab484b0f6231ad3c78da6fbcbf7266e896ed69f6f81b"
+  },
+  {
+    "file": "pep-0518.rst",
+    "pep": 518,
+    "title": "Specifying Minimum Build System Requirements for Python Projects",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0518.rst",
+    "sha256": "511eef59d353f1528ceb0c650608d8b8eb4d312d1cb954cf2dc7bd8ab78c2248"
+  },
+  {
+    "file": "pep-0526.rst",
+    "pep": 526,
+    "title": "Syntax for Variable Annotations",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0526.rst",
+    "sha256": "b6e0a6994ba2ab57554cba933d830daa692cdb11f9351dcb34ca7f8a3932a32e"
+  },
+  {
+    "file": "pep-0544.rst",
+    "pep": 544,
+    "title": "Protocols: Structural subtyping (static duck typing)",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0544.rst",
+    "sha256": "d02ac1f85da2b5336daf44b360c0eeda057734da549920494972070d34613e54"
+  },
+  {
+    "file": "pep-0557.rst",
+    "pep": 557,
+    "title": "Data Classes",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0557.rst",
+    "sha256": "5f616e7d2fb9a5632fb2c9881c0622d63920a78a4c19540405f4f5119e4bad12"
+  },
+  {
+    "file": "pep-0561.rst",
+    "pep": 561,
+    "title": "Distributing and Packaging Type Information",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0561.rst",
+    "sha256": "0166f88fb4de2eaad548f2c85d7551c4f63aa9580135739c168f1dea615f3ee4"
+  },
+  {
+    "file": "pep-0563.rst",
+    "pep": 563,
+    "title": "Postponed Evaluation of Annotations",
+    "status": "Superseded",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0563.rst",
+    "sha256": "5512e8a43ace196dcabba98ec6041459ba6843169f951e911d04e088ed7ac559"
+  },
+  {
+    "file": "pep-0570.rst",
+    "pep": 570,
+    "title": "Python Positional-Only Parameters",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0570.rst",
+    "sha256": "4600d9bd209811aed7bb2b422ca43866ac15b71297f6674b08131ee91fa937fd"
+  },
+  {
+    "file": "pep-0572.rst",
+    "pep": 572,
+    "title": "Assignment Expressions",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0572.rst",
+    "sha256": "abf5401ec523a03d59a6f3173842784f426bfd49d8b0a87a512646557bcef8b1"
+  },
+  {
+    "file": "pep-0585.rst",
+    "pep": 585,
+    "title": "Type Hinting Generics In Standard Collections",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0585.rst",
+    "sha256": "918bf996d429379fdba4ab9fcd52b7153e3de47907291f950eb4f017a5b08aea"
+  },
+  {
+    "file": "pep-0589.rst",
+    "pep": 589,
+    "title": "TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0589.rst",
+    "sha256": "946dda24d8c00f191d255ca512c3a69986e0c6703d19c5ca299f5efad9b27bc5"
+  },
+  {
+    "file": "pep-0591.rst",
+    "pep": 591,
+    "title": "Adding a final qualifier to typing",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0591.rst",
+    "sha256": "cc4a470a781056868f389ea76fd3c93f5d19e7d8309424bf5b92847524d2e8cc"
+  },
+  {
+    "file": "pep-0593.rst",
+    "pep": 593,
+    "title": "Flexible function and variable annotations",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0593.rst",
+    "sha256": "050333404ddbc4d7c5657a71f00a70e887c99c736846397e901b4533ed82684a"
+  },
+  {
+    "file": "pep-0604.rst",
+    "pep": 604,
+    "title": "Allow writing union types as ``X | Y``",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0604.rst",
+    "sha256": "c6d87a6c7ea65964e9fecde3af1e4d367e9d49be8441fdebed3682886f359a0d"
+  },
+  {
+    "file": "pep-0612.rst",
+    "pep": 612,
+    "title": "Parameter Specification Variables",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0612.rst",
+    "sha256": "6b9f5b0e082a32fa65e36d3ceeed62ba4f77b40513148f2235de0d829b807346"
+  },
+  {
+    "file": "pep-0621.rst",
+    "pep": 621,
+    "title": "Storing project metadata in pyproject.toml",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0621.rst",
+    "sha256": "8710ea6fcc2f5d19571ea7b2610e5c2fbc93d44051c1e5669f40a685ab4bb49e"
+  },
+  {
+    "file": "pep-0634.rst",
+    "pep": 634,
+    "title": "Structural Pattern Matching: Specification",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0634.rst",
+    "sha256": "352927baffdbb0fdaba34cf059e95fe2a464a604fdba167a41c6257c90e10e5e"
+  },
+  {
+    "file": "pep-0635.rst",
+    "pep": 635,
+    "title": "Structural Pattern Matching: Motivation and Rationale",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0635.rst",
+    "sha256": "72feab4f0c2eb0c5d21700b610beb92ea508fb5b87379d3aeb62886a4605e833"
+  },
+  {
+    "file": "pep-0636.rst",
+    "pep": 636,
+    "title": "Structural Pattern Matching: Tutorial",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0636.rst",
+    "sha256": "9142442d0212ee6deb8b0ce9a2103c9804b7e77678236d2db97697738b47a262"
+  },
+  {
+    "file": "pep-0654.rst",
+    "pep": 654,
+    "title": "Exception Groups and except*",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0654.rst",
+    "sha256": "a369cba5e30ac103a8e9ea8a002be54c1b1795d94bab2f24c53b302e5c58b72e"
+  },
+  {
+    "file": "pep-0668.rst",
+    "pep": 668,
+    "title": "Marking Python base environments as \u201cexternally managed\u201d",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0668.rst",
+    "sha256": "5cfa0584de93ffd9d9d57570aedc4fc0391c41da31715b5395ed88a64089be86"
+  },
+  {
+    "file": "pep-0673.rst",
+    "pep": 673,
+    "title": "Self Type",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0673.rst",
+    "sha256": "1b5a4efe80a5b0b1042694cd5d01afbf910f4ccec8a77cfadf6153c3d5d94d9f"
+  },
+  {
+    "file": "pep-0695.rst",
+    "pep": 695,
+    "title": "Type Parameter Syntax",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0695.rst",
+    "sha256": "115c754fb36b634bc97322135b7d7da565afe27038c579f16b2313d9c9447da5"
+  },
+  {
+    "file": "pep-0701.rst",
+    "pep": 701,
+    "title": "Syntactic formalization of f-strings",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0701.rst",
+    "sha256": "85299a5cc95a9fd78cf0f0a992411c114e293364710d8b8f26de3e56a31200f0"
+  },
+  {
+    "file": "pep-0703.rst",
+    "pep": 703,
+    "title": "Making the Global Interpreter Lock Optional in CPython",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0703.rst",
+    "sha256": "8dfe19b2ab3b0ee783f922b533fed7b8018d6d90f3cec5534fd7baaa283a3470"
+  },
+  {
+    "file": "pep-0723.rst",
+    "pep": 723,
+    "title": "Inline script metadata",
+    "status": "Final",
+    "license": "Public domain or CC0-1.0",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-0723.rst",
+    "sha256": "17de64ccc1b03003dcd031abb0372c6c946ae9bbdc802ae3af7ede4437507e59"
+  },
+  {
+    "file": "pep-3107.rst",
+    "pep": 3107,
+    "title": "Function Annotations",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-3107.rst",
+    "sha256": "187386e223cae0a13df0f67a946428f95e6f8c9a75c01ddb3f607750b8d324f5"
+  },
+  {
+    "file": "pep-3119.rst",
+    "pep": 3119,
+    "title": "Introducing Abstract Base Classes",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-3119.rst",
+    "sha256": "ff4f73c1db2dca03722ae97ac48f2e95e30ae81bd0b5299635e0c49d5c5a658f"
+  },
+  {
+    "file": "pep-3129.rst",
+    "pep": 3129,
+    "title": "Class Decorators",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-3129.rst",
+    "sha256": "3ff23fa591640fa733da8090903f7f26e28d72890699a3cbe94407147c40cc8b"
+  },
+  {
+    "file": "pep-3135.rst",
+    "pep": 3135,
+    "title": "New Super",
+    "status": "Final",
+    "license": "Public domain",
+    "source_url": "https://raw.githubusercontent.com/python/peps/28581cca58bda3ad476e8a210be6df4733e88c97/peps/pep-3135.rst",
+    "sha256": "28117820f56f987ab0839f91b56a8c2aea209c3db15e63b5e131c779cc64818a"
+  }
+]
