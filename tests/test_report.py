@@ -77,6 +77,16 @@ def test_report_carries_the_saved_values() -> None:
     assert "retrieval-2026-01-02T030405Z-abc1234.json" in report
 
 
+def test_report_rounds_the_saved_value_and_not_its_binary_approximation() -> None:
+    answer_metrics = ANSWERS["answers"]["metrics"] | {"answer_rate": 0.8955}
+    answers = ANSWERS | {"answers": ANSWERS["answers"] | {"metrics": answer_metrics}}
+    modes = RETRIEVAL["retrieval"]["modes"] | {"bm25": {"metrics": metrics(0.5585)}}
+    retrieval = RETRIEVAL | {"retrieval": RETRIEVAL["retrieval"] | {"modes": modes}}
+    report = render_report(retrieval, [answers])
+    assert "| Answered, of answerable questions | 89.6% |" in report
+    assert "| BM25 | 55.9% | 55.9% | 55.9% | 0.559 |" in report
+
+
 def test_report_details_the_latest_run_and_lists_every_run() -> None:
     older = ANSWERS | {
         "date": "2026-01-01T000000Z",

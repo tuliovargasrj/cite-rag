@@ -43,7 +43,7 @@ Corpus: 41 PEPs, 1665 chunks. Model: `gpt-4o-mini`. Context: top 5 hybrid result
 | --- | --- | --- | --- | --- |
 | BM25 | 31.3% | 55.2% | 64.2% | 0.469 |
 | Embeddings | 32.8% | 59.7% | 70.2% | 0.479 |
-| Hybrid | 37.3% | 71.6% | 79.1% | 0.558 |
+| Hybrid | 37.3% | 71.6% | 79.1% | 0.559 |
 
 **Answers (87 questions, 6 injection cases)**
 
@@ -93,7 +93,9 @@ The first saved run then refused six answerable questions over invalid citations
 | The model shortened a quote with an ellipsis | 3 | Correct rejection: the verifier stayed strict and the prompt gained a rule |
 | The model dropped or changed words | 2 | Correct rejection: same prompt rule |
 
-No evaluation question changed, and the file hash in each result proves it. The prompt and verifier did change after seeing a run, so this set works as a development set, not a held-out test. Both runs are in the table above so the effect stays visible.
+The prompt rule helped only in part: the model still abbreviates some quotes, and those answers stay refused rather than shown with an altered quote.
+
+No evaluation question changed, and the hash saved with each run proves it. The prompt and verifier did change after seeing a run, so this set works as a development set, not a held-out test. Both runs are in the table above so the effect stays visible.
 
 ## Quick start
 
@@ -117,7 +119,7 @@ To generate answers, add an OpenAI API key:
 
 ```bash
 cp .env.example .env
-uv run cite-rag ask "When should I use the walrus operator?"
+uv run cite-rag ask "How long should a line of Python code be?"
 ```
 
 To rerun the full evaluation, which makes one paid call per question, and refresh the results above:

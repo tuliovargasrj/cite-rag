@@ -1,6 +1,7 @@
 """Generate the README results section from saved files, so no number is typed by hand."""
 
 from collections.abc import Sequence
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 from typing import Any
 
@@ -19,8 +20,13 @@ _KIND_LABELS = {
 }
 
 
+def _rounded(value: Decimal, places: str) -> Decimal:
+    return value.quantize(Decimal(places), ROUND_HALF_UP)
+
+
 def _percent(value: float) -> str:
-    return f"{value * 100:.1f}%"
+    # Decimal rounds the saved value as written, not its binary approximation.
+    return f"{_rounded(Decimal(str(value)) * 100, '0.1')}%"
 
 
 def _of(part: int, whole: int) -> str:
@@ -74,7 +80,7 @@ def _retrieval_table(report: dict[str, Any]) -> str:
                 _percent(metrics["hit_rate_at_1"]),
                 _percent(metrics["hit_rate_at_3"]),
                 _percent(metrics["hit_rate_at_5"]),
-                f"{metrics['mrr']:.3f}",
+                str(_rounded(Decimal(str(metrics["mrr"])), "0.001")),
             ]
         )
     return _table(
